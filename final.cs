@@ -10,7 +10,7 @@ string[] ArrayLessThree(string[] words)
             temp[count] = words[i];
             count++;
         }
-    Array.Resize(ref temp, count);
+    Array.Resize(ref temp, count); //cutoff null elements
     return temp;
 }
 
